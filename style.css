@@ -1,0 +1,360 @@
+body {
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+.container {
+  display: table;
+  margin: auto;
+}
+.frame {
+  padding: 0 25px;
+  display: table-cell;
+}
+.section {
+    width: 550px;
+    height: 390px;
+    border-radius: 3.8px;
+    box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+    border: solid 0.2px #444444;
+    background-color: #ffffff;
+}
+
+.college-zone {
+    display: table-row;
+    height: 110px;
+  }
+
+  .college-zone h2{
+    font-size: 18.5px;
+    font-weight: 500;
+    padding:25px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.97;
+    letter-spacing: normal;
+    text-align: left;
+    color: #444444;
+  }
+  
+  .image_container {
+    position: relative;
+    max-width: 550px;
+    height: 234px;
+    background-color: #000000;
+  }
+
+  .Rectangle-1-copy-5 {
+    width: 100%;
+    height: 234px;
+    opacity: 0.33;
+    background-color: #000000;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 16px;
+    width: 199px;
+    height: 13px;
+    font-size: 13.5px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 12px;
+    left: 16px;
+  }
+
+  .Rectangle-2 {
+    float: left;
+    display: table;
+    width: 135px;
+    height: 34px;
+    border-radius: 16.5px;
+    background-color: #ffffff;
+  }
+
+  .college-subtitle {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 13px;
+    font-size: 13.5px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #444444;
+  }
+
+  .Rectangle-2a {
+    float: left;
+    margin-left:10px; 
+    display: table;
+    width: 93px;
+    height: 34px;
+    border-radius: 16.5px;
+    background-color: #ffffff;
+  }
+
+  .Top-right {
+    position: absolute;
+    z-index: 1;
+    display: table;
+    top: 10px;
+    right: 16px;
+  }
+
+  
+/* Promoted badge */
+*, *:before, *:after{ 
+    box-sizing: border-box; 
+} 
+.promoted-badge{
+    position: absolute;
+    height: 143px;
+    width: 0px;
+    padding: 0px;
+    top: -81px;
+    left: 3px;
+    transform: rotate(90deg) skew(0deg);
+    -webkit-transform: rotate(90deg) skew(0deg);
+    border-left: 17px solid #68a7ff;
+    border-right: 17px solid #68a7ff;
+    border-bottom: 25px solid transparent; 
+} 
+.promoted-badge:before{ 
+    content: ""; 
+    width: 0px; 
+} 
+.promoted-badge:after{ 
+    content: ""; 
+    height: 0px; 
+    width: 0px; 
+    padding: 0px; 
+}
+.promoted-badge-content {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    top: -18px;
+    left: -10px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+/* Promoted badge ends*/
+  
+  .text-style-1 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13.5px;
+    font-weight: bold;
+    color: #ffffff;
+    right: 16px;
+    width: 75px;
+    height: 53px;
+    border-radius: 3.8px;
+    background-color: #f5a626;
+    opacity: 0.9;
+  }
+
+  .-Very-Good {
+    font-size: 18.5px;
+    font-weight: bold;
+    width: 57px;
+    height: 35px;
+    font-family: DINPro;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  
+  /* second half */
+  
+.content {
+    width: 100%;
+}
+
+.left-content {
+    width: 66%
+}
+
+.right-content {  
+    width: 33%; 
+    float: right;
+    margin-right: 27px; 
+}
+
+.left-content-subcontainer {
+    float: left;
+}
+.college-title {
+    height: 10px; 
+    font-size: 15.5px;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: #444444;
+}
+
+.star {
+    font-size:15px; 
+    color:#444444;
+}
+
+.college-location-detail {
+    height: 9px;
+    font-size: 12.5px;
+    font-weight: 500;
+    letter-spacing: normal;
+    color: #444444;
+}
+
+.avail-discount {
+    display: table;
+    width: 330px;
+    height: 35px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+    background-color: #ccf5e7;
+}
+
+.avail-discount h5 {
+    font-size: 13px;
+    display: table-cell; 
+    vertical-align: middle;
+}
+
+/* right side */
+
+.right-content-subcontainer{
+    float: right;
+}
+
+.original-price {
+    text-decoration: line-through;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 500;
+    color: #444444;
+}
+
+#pentagon {
+  position: relative;
+  width: 14px;
+  box-sizing: content-box;
+  height: 20px;
+  background: red;
+ transform: rotate(-90deg);
+}
+#pentagon:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -11px;
+  left: 0px;
+  border-width: 0 7px 11px;
+  border-style: solid;
+  border-color: transparent transparent red;
+}
+.text{
+  position: absolute;
+    font-size:13px;
+    top: 2px;
+    right:-1px;
+    color: white;
+    font-weight: bold;
+}
+.dot{
+font-size:14px;
+}
+
+.discounted-price {
+  height: 11px;
+  font-family: MyriadPro;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1px;
+  text-align: right;
+  color: #dd1c26;
+}
+
+.per-semester {
+    height: 10px;
+    font-family: Myriad Pro;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 4.64;
+    letter-spacing: normal;
+    text-align: right;
+    color: #444444;
+
+}
+
+.amenities {
+    line-height: 60px;
+    color: #37b396;
+    font-size: 13px;
+}
+
+.avail-discount-2 {
+  position: relative;
+}
+
+.deal-badge {
+  position: absolute;
+  z-index: 1;
+  height: 53px;
+  width: 0px;
+  padding: 0px;
+  left: 17px;
+  transform: rotate(270deg) skew(0deg);
+  -webkit-transform: rotate(270deg) skew(0deg);
+  border-left: 12px solid #4bb89e;
+  border-right: 11px solid #4bb89e;
+  border-bottom: 12px solid transparent;
+}
+
+.deal-badge-content {
+  position: absolute;
+  z-index: 2;
+  top: 18px;
+  left: 8px;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: white;
+}
+
+.discount-content {
+  color: #37b396; 
+  font-size: 13px;
+  float: right;
+  margin-top: 19px;
+  width: fit-content;
+}
+
+.college-location-detail-2 {
+  height: 0px;
+  margin-bottom: 5px;
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: normal;
+  color: #444444;
+}
